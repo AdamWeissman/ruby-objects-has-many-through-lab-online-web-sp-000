@@ -14,6 +14,6 @@ class Artist
   end
   
   def songs
-    self.songs.all
+    self.song.all
   
 end
