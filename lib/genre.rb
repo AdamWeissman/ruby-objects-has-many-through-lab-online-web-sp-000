@@ -21,7 +21,7 @@ class Genre
   end
   
   def genre
-    songs.map(&:genre)
+    songs.all.map(&:genre)
   end
   
 end
