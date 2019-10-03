@@ -13,7 +13,6 @@ class Genre
     @@all
   end
   
-  def songs
-    self.songs.all
+
   
 end
