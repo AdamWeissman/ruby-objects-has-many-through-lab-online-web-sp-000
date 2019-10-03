@@ -20,8 +20,8 @@ class Genre
     Song.new(song_name, artist, self)
   end
   
-  def genre
-    songs.all.map(&:genre)
+  def genres
+    songs.map(&:genre)
   end
   
 end
